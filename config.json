@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Kékszalag-Fehér szalag vitorlásversenyek 2014–2017",
+    "more": "Ez a háló a vitorlásversenyek résztvevőit mutatja: ki-kivel versenyzett egy hajóban a 2014 és 2017 közötti Kékszalag és Fehér szalag vitorlásversenyeken. A pontok a versenyzőket jelölik. Két versenyző akkor van összekötve, ha a nyolc verseny bármelyikén versenyeztek egy hajóban. Névegyezésekkel kapcsolatos hibák a legjobb szándékunk ellenére is előfordulhatnak.",
+    "intro": "Ez a háló a vitorlásversenyek résztvevőit mutatja: ki-kivel versenyzett egy hajóban a 2014 és 2017 közötti Kékszalag és Fehér szalag vitorlásversenyeken."
+  },
+  "legend": {
+    "edgeLabel": "egy hajóban versenyzés",
+    "colorLabel": "Ki lehet ő?",
+    "nodeLabel": "vitorlázók"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.5,
+      "maxNodeSize": 5,
+      "maxEdgeSize": 2.5,
+      "minNodeSize": 0.5
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
